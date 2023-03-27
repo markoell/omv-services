@@ -9,9 +9,9 @@ services:
       - TZ=Europe/London
       - CLI_ARGS= #optional
     volumes:
-      - ${MEDIA}/Duplicati/config:/config
-      - ${MEDIA}/Duplicati/backups:/backups
-      - ${MEDIA}/Sync:/source
+      - ${CONFIG}:/config
+      - ${BACKUPS}:/backups
+      - ${SOURCE}:/source
     ports:
       - 8200:8200
     restart: unless-stopped
