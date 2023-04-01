@@ -9,8 +9,8 @@ services:
       - TZ=Europe/Berlin
     volumes:
       - ${CONFIG}:/config
-      - ${BACKUPS}:/backups
-      - ${SOURCE}:/source
+      - ${DOWNLOADS}:/downloads
+      - ${SYNC}:/sync
     ports:
       - 8888:8888
       - 55555:55555
