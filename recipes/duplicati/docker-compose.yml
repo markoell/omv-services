@@ -13,5 +13,5 @@ services:
       - ${BACKUPS}:/backups
       - ${SOURCE}:/source
     ports:
-      - 8200:8200
+      - 8300:8200
     restart: unless-stopped
