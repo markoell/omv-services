@@ -35,14 +35,16 @@ This repository currently contains Docker Compose files for the following servic
 
 * Resilio Sync
 * Duplicati
-* 
-* Plex Media Server
-* Transmission BitTorrent Client
-* Sonarr
-* Radarr
-* Lidarr
-* Jackett
-* Tautulli
+
+These services might follow:
+
+* [ ] Plex Media Server
+* [ ] Transmission BitTorrent Client
+* [ ] Sonarr
+* [ ] Radarr
+* [ ] Lidarr
+* [ ] Jackett
+* [ ] Tautulli
 
 
 Each service has its own Docker Compose file, which can be found in the relevant directory.
